@@ -1,0 +1,16 @@
+C:\Projetos\DotNet\Empresarial\Empresarial.Infra\bin\Debug\netcoreapp2.1\Empresarial.Infra.deps.json
+C:\Projetos\DotNet\Empresarial\Empresarial.Infra\bin\Debug\netcoreapp2.1\Empresarial.Infra.dll
+C:\Projetos\DotNet\Empresarial\Empresarial.Infra\obj\Debug\netcoreapp2.1\Empresarial.Infra.csprojAssemblyReference.cache
+C:\Projetos\DotNet\Empresarial\Empresarial.Infra\obj\Debug\netcoreapp2.1\Empresarial.Infra.csproj.CoreCompileInputs.cache
+C:\Projetos\DotNet\Empresarial\Empresarial.Infra\obj\Debug\netcoreapp2.1\Empresarial.Infra.AssemblyInfoInputs.cache
+C:\Projetos\DotNet\Empresarial\Empresarial.Infra\obj\Debug\netcoreapp2.1\Empresarial.Infra.AssemblyInfo.cs
+C:\Projetos\DotNet\Empresarial\Empresarial.Infra\bin\Debug\netcoreapp2.1\Empresarial.Infra.runtimeconfig.json
+C:\Projetos\DotNet\Empresarial\Empresarial.Infra\bin\Debug\netcoreapp2.1\Empresarial.Infra.runtimeconfig.dev.json
+C:\Projetos\DotNet\Empresarial\Empresarial.Infra\bin\Debug\netcoreapp2.1\Empresarial.Infra.pdb
+C:\Projetos\DotNet\Empresarial\Empresarial.Infra\bin\Debug\netcoreapp2.1\Empresarial.Dominio.dll
+C:\Projetos\DotNet\Empresarial\Empresarial.Infra\bin\Debug\netcoreapp2.1\Empresarial.Dominio.pdb
+C:\Projetos\DotNet\Empresarial\Empresarial.Infra\obj\Debug\netcoreapp2.1\Empresarial.Infra.csproj.CopyComplete
+C:\Projetos\DotNet\Empresarial\Empresarial.Infra\obj\Debug\netcoreapp2.1\Empresarial.Infra.dll
+C:\Projetos\DotNet\Empresarial\Empresarial.Infra\obj\Debug\netcoreapp2.1\Empresarial.Infra.pdb
+C:\Projetos\DotNet\Empresarial\Empresarial.Infra\bin\Debug\netcoreapp2.1\Microsoft.AspNetCore.Http.Abstractions.dll
+C:\Projetos\DotNet\Empresarial\Empresarial.Infra\bin\Debug\netcoreapp2.1\Microsoft.AspNetCore.Http.Abstractions.xml

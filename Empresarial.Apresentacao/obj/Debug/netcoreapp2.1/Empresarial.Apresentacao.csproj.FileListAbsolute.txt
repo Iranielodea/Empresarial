@@ -1,0 +1,14 @@
+C:\Projetos\DotNet\Empresarial\Empresarial.Apresentacao\bin\Debug\netcoreapp2.1\Empresarial.Apresentacao.deps.json
+C:\Projetos\DotNet\Empresarial\Empresarial.Apresentacao\bin\Debug\netcoreapp2.1\Empresarial.Apresentacao.dll
+C:\Projetos\DotNet\Empresarial\Empresarial.Apresentacao\bin\Debug\netcoreapp2.1\Empresarial.Api.dll
+C:\Projetos\DotNet\Empresarial\Empresarial.Apresentacao\bin\Debug\netcoreapp2.1\Empresarial.Dominio.dll
+C:\Projetos\DotNet\Empresarial\Empresarial.Apresentacao\bin\Debug\netcoreapp2.1\Empresarial.Api.pdb
+C:\Projetos\DotNet\Empresarial\Empresarial.Apresentacao\bin\Debug\netcoreapp2.1\Empresarial.Dominio.pdb
+C:\Projetos\DotNet\Empresarial\Empresarial.Apresentacao\obj\Debug\netcoreapp2.1\Empresarial.Apresentacao.csprojAssemblyReference.cache
+C:\Projetos\DotNet\Empresarial\Empresarial.Apresentacao\obj\Debug\netcoreapp2.1\Empresarial.Apresentacao.csproj.CoreCompileInputs.cache
+C:\Projetos\DotNet\Empresarial\Empresarial.Apresentacao\obj\Debug\netcoreapp2.1\Empresarial.Apresentacao.AssemblyInfoInputs.cache
+C:\Projetos\DotNet\Empresarial\Empresarial.Apresentacao\obj\Debug\netcoreapp2.1\Empresarial.Apresentacao.AssemblyInfo.cs
+C:\Projetos\DotNet\Empresarial\Empresarial.Apresentacao\obj\Debug\netcoreapp2.1\Empresarial.Apresentacao.csproj.CopyComplete
+C:\Projetos\DotNet\Empresarial\Empresarial.Apresentacao\bin\Debug\netcoreapp2.1\Empresarial.Apresentacao.pdb
+C:\Projetos\DotNet\Empresarial\Empresarial.Apresentacao\obj\Debug\netcoreapp2.1\Empresarial.Apresentacao.dll
+C:\Projetos\DotNet\Empresarial\Empresarial.Apresentacao\obj\Debug\netcoreapp2.1\Empresarial.Apresentacao.pdb

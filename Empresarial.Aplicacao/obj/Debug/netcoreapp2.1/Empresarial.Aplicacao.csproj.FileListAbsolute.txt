@@ -1,0 +1,14 @@
+C:\Projetos\DotNet\Empresarial\Empresarial.Aplicacao\obj\Debug\netcoreapp2.1\Empresarial.Aplicacao.csprojAssemblyReference.cache
+C:\Projetos\DotNet\Empresarial\Empresarial.Aplicacao\obj\Debug\netcoreapp2.1\Empresarial.Aplicacao.csproj.CoreCompileInputs.cache
+C:\Projetos\DotNet\Empresarial\Empresarial.Aplicacao\obj\Debug\netcoreapp2.1\Empresarial.Aplicacao.AssemblyInfoInputs.cache
+C:\Projetos\DotNet\Empresarial\Empresarial.Aplicacao\obj\Debug\netcoreapp2.1\Empresarial.Aplicacao.AssemblyInfo.cs
+C:\Projetos\DotNet\Empresarial\Empresarial.Aplicacao\bin\Debug\netcoreapp2.1\Empresarial.Aplicacao.deps.json
+C:\Projetos\DotNet\Empresarial\Empresarial.Aplicacao\bin\Debug\netcoreapp2.1\Empresarial.Aplicacao.dll
+C:\Projetos\DotNet\Empresarial\Empresarial.Aplicacao\bin\Debug\netcoreapp2.1\Empresarial.Dominio.dll
+C:\Projetos\DotNet\Empresarial\Empresarial.Aplicacao\bin\Debug\netcoreapp2.1\Empresarial.Dominio.pdb
+C:\Projetos\DotNet\Empresarial\Empresarial.Aplicacao\obj\Debug\netcoreapp2.1\Empresarial.Aplicacao.csproj.CopyComplete
+C:\Projetos\DotNet\Empresarial\Empresarial.Aplicacao\bin\Debug\netcoreapp2.1\Empresarial.Aplicacao.pdb
+C:\Projetos\DotNet\Empresarial\Empresarial.Aplicacao\obj\Debug\netcoreapp2.1\Empresarial.Aplicacao.dll
+C:\Projetos\DotNet\Empresarial\Empresarial.Aplicacao\obj\Debug\netcoreapp2.1\Empresarial.Aplicacao.pdb
+C:\Projetos\DotNet\Empresarial\Empresarial.Aplicacao\bin\Debug\netcoreapp2.1\Microsoft.AspNetCore.Http.Abstractions.dll
+C:\Projetos\DotNet\Empresarial\Empresarial.Aplicacao\bin\Debug\netcoreapp2.1\Microsoft.AspNetCore.Http.Abstractions.xml

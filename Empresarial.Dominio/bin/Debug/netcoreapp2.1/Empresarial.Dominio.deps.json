@@ -1,0 +1,55 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v2.1",
+    "signature": "3dd3855c5e7043e4a453809e40aa8a8ead23485b"
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v2.1": {
+      "Empresarial.Dominio/1.0.0": {
+        "dependencies": {
+          "FluentValidator": "2.0.4",
+          "Microsoft.AspNetCore.Http.Abstractions": "2.1.1.0"
+        },
+        "runtime": {
+          "Empresarial.Dominio.dll": {}
+        }
+      },
+      "FluentValidator/2.0.4": {
+        "runtime": {
+          "lib/netstandard1.3/FluentValidator.dll": {
+            "assemblyVersion": "2.0.4.0",
+            "fileVersion": "2.0.4.0"
+          }
+        }
+      },
+      "Microsoft.AspNetCore.Http.Abstractions/2.1.1.0": {
+        "runtime": {
+          "Microsoft.AspNetCore.Http.Abstractions.dll": {
+            "assemblyVersion": "2.1.1.0",
+            "fileVersion": "2.1.1.18157"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Empresarial.Dominio/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "FluentValidator/2.0.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-px1HWHYBD20PuCUgz/mEl/QcBsikW5nbdtR5whllwMIyJ4FJs03nGXe5ocHEre/x3CX72hJBnX7bteqkZwlcfA==",
+      "path": "fluentvalidator/2.0.4",
+      "hashPath": "fluentvalidator.2.0.4.nupkg.sha512"
+    },
+    "Microsoft.AspNetCore.Http.Abstractions/2.1.1.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

@@ -1,0 +1,126 @@
+﻿using Empresarial.Dominio.Entidades;
+using Empresarial.Dominio.Enums;
+using Empresarial.Dominio.Interfaces;
+using Empresarial.Dominio.Interfaces.Servicos;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+
+namespace Empresarial.Servico.Servicos
+{
+    public class ServicoPermissao : ServicoBase<Permissao>, IServicoPermissao
+    {
+        private readonly IRepositorioPermissao _repositorio;
+        int _codigoPrograma;
+
+        public ServicoPermissao(IRepositorioPermissao repositorio)
+            : base(repositorio)
+        {
+            _repositorio = repositorio;
+            _codigoPrograma = 3;
+        }
+
+        private void PermissaoAcao(int empresaId, int usuarioId, EnPermissao enPermissao)
+        {
+            bool permissao = Permissao(_codigoPrograma, empresaId, usuarioId, enPermissao);
+            if (permissao == false)
+                throw new Exception("Usuário sem Permissão!");
+        }
+
+        public Permissao Editar(int empresaId, int usuarioId, int id)
+        {
+            PermissaoAcao(empresaId, usuarioId, EnPermissao.Editar);
+            return ObterPorId(id);
+        }
+
+        public void Excluir(int empresaId, int usuarioId, int id)
+        {
+            PermissaoAcao(empresaId, usuarioId, EnPermissao.Excluir);
+
+            var model = _repositorio.Find(id);
+            if (model != null)
+            {
+                _repositorio.Deletar(model);
+            }
+        }
+
+        public IEnumerable<PermissaoConsulta> Filtrar(PermissaoFiltro filtro)
+        {
+            return _repositorio.Filtrar(filtro);
+        }
+
+        public void Novo(int empresaId, int usuarioId)
+        {
+            PermissaoAcao(empresaId, usuarioId, EnPermissao.Incluir);
+        }
+
+        public Permissao ObterPorId(int id)
+        {
+            var model = _repositorio.Find(id);
+            if (model == null)
+                throw new Exception("Registro não Encontrado!");
+            return model;
+        }
+
+        public bool Permissao(int codigoPrograma, int empresaId, int usuarioId, EnPermissao enPermissao)
+        {
+            bool permissao = true;
+
+            if (enPermissao == EnPermissao.Acesso)
+            {
+                permissao = _repositorio.GetAll().Any(x => x.Programa.Codigo == codigoPrograma
+                && x.UsuarioId == usuarioId
+                && x.EmpresaId == empresaId
+                && x.Acesso == true);
+            }
+
+            if (enPermissao == EnPermissao.Incluir)
+            {
+                permissao = _repositorio.GetAll().Any(x => x.Programa.Codigo == codigoPrograma
+                && x.UsuarioId == usuarioId
+                && x.EmpresaId == empresaId
+                && x.Incluir == true);
+            }
+
+            if (enPermissao == EnPermissao.Editar)
+            {
+                permissao = _repositorio.GetAll().Any(x => x.Programa.Codigo == codigoPrograma
+                && x.UsuarioId == usuarioId
+                && x.EmpresaId == empresaId
+                && x.Editar == true);
+            }
+
+            if (enPermissao == EnPermissao.Excluir)
+            {
+                permissao = _repositorio.GetAll().Any(x => x.Programa.Codigo == codigoPrograma
+                && x.UsuarioId == usuarioId
+                && x.EmpresaId == empresaId
+                && x.Excluir == true);
+            }
+
+            if (enPermissao == EnPermissao.Relatorio)
+            {
+                permissao = _repositorio.GetAll().Any(x => x.Programa.Codigo == codigoPrograma
+                && x.UsuarioId == usuarioId
+                && x.EmpresaId == empresaId
+                && x.Relatorio == true);
+            }
+            return permissao;
+        }
+
+        public void Relatorio(int empresaId, int usuarioId)
+        {
+            PermissaoAcao(empresaId, usuarioId, EnPermissao.Relatorio);
+        }
+
+        public void Salvar(Permissao model)
+        {
+            model.Validar();
+
+            if (model.Id == 0)
+                _repositorio.Insert(model);
+            else
+                _repositorio.Update(model);
+        }
+    }
+}

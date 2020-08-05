@@ -1,0 +1,48 @@
+﻿using Empresarial.Dominio.Entidades;
+using Empresarial.Dominio.Interfaces;
+using System;
+using System.Collections.Generic;
+
+namespace Empresarial.Dominio.Servicos
+{
+    public class ServicoEmpresa : ServicoBasico
+    {
+        private readonly IRepositorioEmpresa _repositorio;
+
+        public ServicoEmpresa(IRepositorioEmpresa repositorioEmpresa)
+        {
+            _repositorio = repositorioEmpresa;
+        }
+
+        public Empresa ObterPorId(int id)
+        {
+            var model = _repositorio.Find(id);
+            if (model == null)
+                throw new Exception("Registro não encontrado");
+            return model;
+        }
+
+        public IEnumerable<EmpresaConsulta> Filtrar(EmpresaFiltro filtro)
+        {
+            return _repositorio.Filtrar(filtro);
+        }
+
+        public void Excluir(int id)
+        {
+            var model = _repositorio.Find(id);
+            if (model != null)
+                _repositorio.Deletar(model);
+        }
+
+        public void Salvar(Empresa model)
+        {
+            if (string.IsNullOrWhiteSpace(model.Nome))
+                throw new Exception("Informe o Nome!");
+
+            if (model.Id == 0)
+                _repositorio.Insert(model);
+            else
+                _repositorio.Update(model);
+        }
+    }
+}
